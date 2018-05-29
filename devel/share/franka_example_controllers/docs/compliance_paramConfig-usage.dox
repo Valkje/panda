@@ -1,0 +1,22 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dynamic_compliance" pkg="franka_example_controllers" type="dynamic_compliance">
+  <param name="translational_stiffness" type="double" value="250.0" />
+  <param name="rotational_stiffness" type="double" value="20.4" />
+  <param name="nullspace_stiffness" type="double" value="0.0" />
+  <param name="z_stiffness" type="double" value="200.0" />
+  <param name="orientation_x" type="double" value="0.998361" />
+  <param name="orientation_y" type="double" value="-0.053096" />
+  <param name="orientation_z" type="double" value="-0.00866312" />
+  <param name="orientation_w" type="double" value="0.0193834" />
+  <param name="desired_mass" type="double" value="0.25" />
+  <param name="k_p" type="double" value="0.3" />
+  <param name="k_i" type="double" value="1.0" />
+  <param name="k_d" type="double" value="0.01" />
+  <param name="radius" type="double" value="0.11" />
+  <param name="velocity" type="double" value="0.04" />
+  <param name="setpoint" type="double" value="4.0" />
+  <param name="figure" type="int" value="1" />
+</node>
+\endverbatim
+

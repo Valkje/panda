@@ -1,0 +1,21 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~translational_stiffness" : \b [double] Cartesian translational stiffness min: 0.0, default: 250.0, max: 400.0
+- \b "~rotational_stiffness" : \b [double] Cartesian rotational stiffness min: 0.0, default: 20.4, max: 30.0
+- \b "~nullspace_stiffness" : \b [double] Stiffness of the joint space nullspace controller (the desired configuration is the one at startup) min: 0.0, default: 0.0, max: 100.0
+- \b "~z_stiffness" : \b [double] Cartesian z-stiffness (docked) min: 0.0, default: 200.0, max: 400.0
+- \b "~orientation_x" : \b [double] Orientation x min: -0.9, default: 0.998361, max: 0.9
+- \b "~orientation_y" : \b [double] Orientation y min: -0.9, default: -0.053096, max: 0.9
+- \b "~orientation_z" : \b [double] Orientation z min: -0.9, default: -0.00866312, max: 0.9
+- \b "~orientation_w" : \b [double] Orientation w min: -0.9, default: 0.0193834, max: 0.9
+- \b "~desired_mass" : \b [double] desired mass for rendered force due to gravity applied in the z axis min: 0.0, default: 0.25, max: 2.0
+- \b "~k_p" : \b [double] force P gain min: 0.0, default: 0.3, max: 2.0
+- \b "~k_i" : \b [double] force I gain min: 0.0, default: 1.0, max: 20.0
+- \b "~k_d" : \b [double] force D gain min: 0.0, default: 0.01, max: 0.1
+- \b "~radius" : \b [double] radius min: 0.0, default: 0.11, max: 0.3
+- \b "~velocity" : \b [double] velocity min: 0.0, default: 0.04, max: 0.5
+- \b "~setpoint" : \b [double] setpoint min: 0.0, default: 4.0, max: 5.0
+- \b "~figure" : \b [int] Figure parameter min: 0, default: 1, max: 3
+
